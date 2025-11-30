@@ -1,0 +1,78 @@
+/* Footer.css */
+.app-footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e5e7eb;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer-logo {
+    width: 36px;
+    height: 36px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+  
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-system-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111827;
+    line-height: 1.2;
+  }
+  
+  .footer-tagline {
+    color: #6b7280;
+    font-size: 0.75rem;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  .footer-copyright {
+    color: #9ca3af;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      padding: 0 1rem;
+    }
+    
+    .footer-brand {
+      flex-direction: column;
+      text-align: center;
+      gap: 0.5rem;
+    }
+    
+    .footer-text {
+      align-items: center;
+    }
+  }
